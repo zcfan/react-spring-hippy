@@ -1,0 +1,63 @@
+{
+  "name": "react-spring-hippy",
+  "version": "1.0.0",
+  "description": "react-spring target for Tencent/Hippy (A RN-like framework)",
+  "module": "./dist/react-spring_hippy.legacy-esm.js",
+  "main": "dist/index.js",
+  "types": "./dist/react-spring_hippy.modern.d.ts",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./dist/react-spring_hippy.modern.d.ts",
+      "import": "./dist/react-spring_hippy.modern.mjs",
+      "require": "./dist/cjs/index.js"
+    }
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
+    "dev": "tsup --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://zcfan@github.com/zcfan/react-spring-hippy.git"
+  },
+  "keywords": [
+    "animated",
+    "animation",
+    "hooks",
+    "motion",
+    "react",
+    "spring",
+    "typescript",
+    "velocity",
+    "hippy",
+    "hippyjs"
+  ],
+  "author": "Alan Zhang (gagazcfan@icloud.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zcfan/react-spring-hippy/issues"
+  },
+  "homepage": "https://github.com/zcfan/react-spring-hippy#readme",
+  "dependencies": {
+    "@react-spring/animated": "~9.7.3",
+    "@react-spring/core": "~9.7.3",
+    "@react-spring/shared": "~9.7.3",
+    "@react-spring/types": "~9.7.3"
+  },
+  "peerDependencies": {
+    "@hippy/react": "^3.0.1",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react-reconciler": "^0.28.8",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+}
