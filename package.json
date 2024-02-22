@@ -1,6 +1,6 @@
 {
   "name": "react-spring-hippy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react-spring target for Tencent/Hippy (A RN-like framework)",
   "module": "./dist/react-spring_hippy.legacy-esm.js",
   "main": "dist/index.js",
