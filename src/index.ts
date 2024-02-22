@@ -1,5 +1,3 @@
-import './setup'
-
 import { AnimatedObject, createHost } from '@react-spring/animated'
 import {
   colors,
@@ -16,6 +14,7 @@ import { primitives } from './primitives'
 Globals.assign({
   createStringInterpolator,
   colors,
+  requestAnimationFrame
 })
 
 const host = createHost(primitives, {
