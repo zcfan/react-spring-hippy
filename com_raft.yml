@@ -1,0 +1,15 @@
+name: react-spring-hippy
+displayName: react-spring 动画库 hippy target
+version: 1.0.3
+summary: "react-spring 动画库的 hippy target，实现符合物理规律的动画。"
+description: "react-spring 动画库的 hippy target，实现符合物理规律的动画，更多参考 react-spring 官方文档。"
+team: "WeSing"
+hippyFramework: React
+apiVersion: npm/v2
+platform: hippy
+hippyRender:
+    - Android
+    - iOS
+    
+owner:
+  - cfanzhang
