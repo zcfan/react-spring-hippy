@@ -5,7 +5,7 @@ summary: "react-spring 动画库的 hippy target，实现符合物理规律的�
 description: "react-spring 动画库的 hippy target，实现符合物理规律的动画，更多参考 react-spring 官方文档。"
 team: "WeSing"
 hippyFramework: React
-apiVersion: npm/v2
+apiVersion: npm/v1
 platform: hippy
 hippyRender:
     - Android
