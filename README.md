@@ -7,7 +7,17 @@ Modified from react spring offical demo with some necessary modification to make
 
 ![demo](./images/demo.gif)
 
-Source code of modified hippy version:
+## 快速开始
+
+1. 安装
+
+```bash
+npm install react-spring-hippy -D
+```
+
+2. 参考 [react-spring 文档](https://www.react-spring.dev/docs/getting-started)了解使用方式。
+
+前面 gif 的 demo 代码:
 
 ```typescript
 import { TouchableEvent, View } from '@hippy/react'
